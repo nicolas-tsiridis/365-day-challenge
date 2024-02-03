@@ -18,7 +18,6 @@ class PhotoItem extends StatelessWidget {
       children: [
         SizedBox(
           width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height - (2 * MediaQuery.of(context).padding.left) - 110,
           child: Image.asset(url, fit: BoxFit.cover)
         ),
         LabelItem(
